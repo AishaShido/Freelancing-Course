@@ -1,0 +1,416 @@
+body::before {
+	display: block;
+	content: '';
+	height: 60px;
+}
+
+#map {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+	.news-input {
+		width: 50%;
+	}
+}
+
+.cat-image {
+	width: 200px;
+	height: 200px;
+}
+
+
+
+ nav{
+	border: 1px solid rgb(34, 33, 33);
+	width: 100%;
+	background-color: rgb(34, 33, 33);
+}
+
+nav p{
+	margin: 5px 0 5px 45px; /* hada margin top samayn hoos na samay halkano kale oo hadii kale hoos ayuu kusii dhagin */
+}
+nav p a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 1;
+}
+
+nav p a:hover{
+	color: #fff;
+}
+nav ul{
+	display: flex;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+nav ul li{
+	position: relative;
+	list-style-type: none;
+	padding: 0 35px 0 15px;
+	margin-top: 0;
+}
+nav ul li a{
+	font-size: 13px;
+	text-decoration: none;
+	color: gray;
+}
+nav ul li a:hover{
+	color: #a9a9a9;
+}
+
+/* Subnav bar */
+
+.subnav{
+	padding: 40px 0 0 45px;	
+	border: 1px solid ;
+	width: 100%;
+	height: 220px;
+	background-color: rgb(34, 33, 33);
+}
+.subnav h2{
+	color: #fff;
+	padding-bottom: 10px;
+}.subnav h2 span{
+	color: rgb(171, 113, 5);
+}
+.subnav p{
+	letter-spacing: 1px;
+	color: #fff;
+	padding-bottom: 10px;
+}
+/* .subnav h4{
+	padding: 0 0 0 45px;
+} */
+.btn{
+	color: #ffffff;
+	letter-spacing: 1;
+	padding: 12px 15px;
+	border: 1px solid #3b3bf6;
+	background-color:  #3b3bf6;
+}
+.btn:hover{
+	color: #ffffff;
+	background-color: #070795;
+}
+
+/* section1 */
+
+.form{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	background-color: #3b3bf6;
+	width: 100%;
+	height: 130px;
+}
+.form h3{
+	color: #ffffff;
+	padding-left: 45px;
+	padding-top: 50px;
+}
+.entry{
+	border-color: #ffffff;
+	box-sizing: border-box;
+	padding-top: 45px;
+	padding-left: 10%;
+}
+.email{
+	width: 500px;
+	padding: 10px 250px 10px 0;
+	background-color: #fff;
+	color: #a9a9a9;
+	justify-content: flex-start;
+
+}
+.btn2{
+	background-color:#070795;
+	color: #fff;
+	padding: 10px 10px;
+}
+.btn2:hover{
+	background: #000;
+}
+
+/* <card> */
+
+.card{
+	border: 1px solid #fff;
+	width: 100%;
+	height: 85vh;
+}
+.cats{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 40px;
+	justify-content: space-around;
+}
+#imgcat{
+	/* margin: auto; */
+	border: 2px solid #fff;
+	height: 200px;
+	width: 200px;
+}
+.cat1{
+	background-color: #000;
+	width: 25%;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	padding: 20px 20px 60px 20px;
+}
+.cat1 img{
+	margin-left: 28px;
+}
+.cats h4{
+	color: #fff;
+	text-align: center;
+	padding: 10px 0 10px 0;
+}
+.cats p{
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	padding: 0 0 25px 0;
+}
+
+.cat2{
+	background-color: gray;
+	width: 25%;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 20px 20px 60px 20px;
+}
+.cat2 img{
+	margin-left: 28px;
+}
+.cat3{
+	background-color: red;
+	width: 25%;
+	border: 1px solid red;
+	border-radius: 5px;
+	padding: 20px 20px 60px 20px;
+}
+.cat3 img{
+	margin-left: 34px;
+}
+.btn3{
+	color: #fff;
+	background-color: #3b3bf6;
+	padding: 15px 15px;
+	text-decoration: none;
+	margin-left: 80px;
+}
+.btn3:hover{
+	background-color: #070795;
+	color: #fff;
+}
+
+/* section text */
+
+.text{
+	display: flex;
+	justify-content: flex-end;
+	border: 1px solid #fff;
+	width: 100%;
+	height: 80vh;
+}
+.text img{
+	width: 300px;
+	height: 300px;
+}
+.sub-text{
+	margin: 40px 120px 20px;
+	padding: 20px 20px;
+	width: 40%;
+	height: 60vh;
+	border: 1px solid white;
+}
+.sub-text #p1{
+	padding: 50px 0 10px 0;
+}
+.btn4{
+	color: #fff;
+	background-color: #3b3bf6;
+	padding: 20px 20px;
+	text-decoration: none;
+	line-height: 100px;
+}
+.btn4:hover{
+	background-color: #070795;
+	color: #fff;
+}
+.btn4:hover i{
+	margin-right: 5px;
+}
+
+/* <!---section2---> */
+
+.text1{
+	background-color: rgb(32, 31, 31);
+	display: flex;
+	justify-content: flex-start;
+	border: 1px solid rgb(0, 0, 0);
+	width: 100%;
+	height: 70vh;
+}
+.sub-text1{
+	border: 1px solid rgb(32, 31, 31);
+	width: 50%;
+	margin: 50px 0 0 80px;
+	padding: 20px 20px;
+}
+.sub-text1{
+	color: #fff;
+}
+.sub-text1 #p1{
+	color: #fff;
+}
+.sub-text1 #p2{
+	color: #fff;
+}
+.btn5{
+	color: #fff;
+	background-color: #3b3bf6;
+	padding: 20px 20px;
+	text-decoration: none;
+	line-height: 100px;
+}
+.btn5:hover{
+	background-color: #070795;
+	color: #fff;
+}
+.btn5:hover i{
+	margin-right: 5px;
+}
+
+/* Section cards2 for trainers */
+.card2{
+	border: 1px solid #3b3bf6;
+	width: 100%;
+	height: 130vh;
+	background: #3b3bf6;
+	margin: auto;
+}
+
+.card2 > h3{
+	text-align: center;
+	color: #ffffff;
+	font-size: 30px;
+	line-height: 80px;
+}
+.card2 > p{
+	text-align: center;
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 10px;
+	margin-bottom: 50px;
+}
+.trainers{
+	width: 90%;
+	margin: auto;
+	border: 1px solid #3b3bf6;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#tot{
+	width: 170px;
+	height: 170px;
+	border-radius: 160px;
+	/* margin: 0 25px 0 25px; */
+}
+.people1{
+	width: 20%;
+	border: 1px solid white;
+	padding: 40px 15px;
+	background-color: #fff;
+}
+.people2{
+	width: 20%;
+	border: 1px solid ;
+	padding: 40px 15px;
+	background-color: #fff;
+}
+.people3{
+	width: 20%;
+	border: 1px solid white;
+	padding: 40px 15px;
+	background-color: #fff;
+}
+.people4{
+	width: 20%;
+	border: 1px solid white;
+	padding: 40px 15px;
+	background-color: #fff;
+}
+.trainers h4{
+	text-align: center;
+}
+.trainers p{
+	color: #000;
+	text-align: center;
+	font-size: 15px;
+}
+
+.fafa{
+	border: 1px solid white;
+	text-align: center;
+	letter-spacing: 6px; /*i used it for it to space between the icons*/
+}
+
+/* second last section  */
+.lastsec{
+	width: 100%;
+	background-color: #fff;
+	padding: 30px 30px;
+	border: 1px solid #fff;
+}
+.lastsec h3{
+	margin: 0 0 20px 150px;
+	font-size: 36px;
+}
+.lastsec p{
+	font-size: 20px;
+	margin-left: 80px;
+}
+.lastsec #p1{
+	border-bottom: 1px solid gray;
+	width: 50%;
+}
+.lastsec #p2{
+	border-bottom: 1px solid gray;
+	width: 50%;
+}
+.lastsec #p3{
+	border-bottom: 1px solid gray;
+	width: 50%;
+}
+.lastsec #p4{
+	border-bottom: 1px solid gray;
+	width: 50%;
+}
+.lastsec #p5{
+	border-bottom: 1px solid gray;
+	width: 50%;
+}
+
+/* footer */
+footer{
+	width: 100%;
+	background-color: rgb(24, 13, 54);
+}
+footer p{
+	text-align: center;
+	font-size: 20px;
+	color: gray;
+	padding: 70px 20px;
+}
+footer a{
+	display: flex;
+	justify-content: flex-end;
+	font-size: 40px;
+}
